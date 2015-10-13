@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<meta name="" content="">
+</head>
+<body>
+<form name="form1" id="form1" onsubmit="return false;">
+    <table width="100%">
+        <tr>
+            <td>
+                <select name="leftProcess" size="5">
+                    <option value="1">Left List Option 1</option>
+                    <option value="2">Left List Option 2</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="moveRight('leftProcess','rightProcess');">>></button>
+                <br/>
+                <button onclick="moveRight('rightProcess','leftProcess')">
+                    <<</button>
+            </td>
+            <td>
+                <select name="rightProcess" size="5">
+                    <option value="3">Right List Option 1</option>
+                    <option value="4">Right List Option 2</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
